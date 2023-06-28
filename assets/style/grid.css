@@ -1,0 +1,106 @@
+.banner {
+    display: grid;
+    gap: 1rem;
+}
+
+.banner img:nth-child(1) {
+    grid-column: 1/3;
+}
+
+.banner img:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.eventos__item {
+    display: grid;
+    grid-template-columns: 1fr auto; /*estamos indicando ao navegador que queremos uma fração do espaço restante*/
+    grid-template-rows: auto repeat(2, 1fr) auto; /*repeat=linha 2 e 3 com 1fr*/
+    grid-template-areas: /*cria e nomeia as áreas, além de determinar quantas linhas e colunas elas terão*/
+        "imagem imagem"
+        "nome nome"
+        "data data"
+        "local botao";
+}
+
+.eventos__item img {
+    grid-area: imagem; /*faz a associação entre o elemento e a área do grid, definida no grid-template-areas*/
+}
+
+.eventos__item h3 {
+    grid-area: nome;
+    align-self: center;
+}
+
+.eventos__item h4 {
+    grid-area: data;
+}
+
+.eventos__item h5 {
+    grid-area: local;
+    align-self: flex-end;
+}
+
+.eventos__item button {
+    grid-area: botao;
+}
+
+.agenda__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+}
+
+.agenda__item img {
+    grid-column: 1/ 3;
+}
+
+@media (min-width: 720px) {
+    .banner {
+        grid-template-columns: calc(50% - 0.75rem);/*calc no 1o banner, automatico p o 2o e 3o*/
+        column-gap: 1.5rem; /*0.75 p direita e 0.75 p esquerda*/
+    }
+
+    .banner img:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    
+    .banner img:nth-child(4) {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+}
+
+@media (min-width: 1440px){
+
+    .categorias{
+        display: grid;
+        grid-template-columns: calc(50% - 0.75rem) ;
+        grid-template-rows: auto 1fr auto;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+
+    .categorias__titulo{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .categorias__lista {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .categorias__destaques{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .categorias__imagem{
+        grid-column: 2/3;
+        grid-row: 3/4;
+
+    }
+}
+
