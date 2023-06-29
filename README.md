@@ -4,7 +4,6 @@ Olá,
 
 O Culturama é uma página que divulga eventos fictícios sobre cultura, entretenimento e esporte.
 <br><br>
-*Desenvolvida como resultado de um curso na Alura.*
 
 |:placard: Vitrine.Dev |                                       | 
 | -------------------- | --------------------------------------|
@@ -27,9 +26,11 @@ O Culturama é uma página que divulga eventos fictícios sobre cultura, entrete
 
 ## Feito por:
 
-### Nayra Braga Barbosa
+**Nayra Braga Barbosa**
 
-### Linkedin: https://www.linkedin.com/in/nayra-barbosa/
+Linkedin: https://www.linkedin.com/in/nayra-barbosa/
+
+*Página desenvolvida como resultado de um curso na Alura.*
 
 
 
