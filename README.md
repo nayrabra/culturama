@@ -6,13 +6,13 @@ O Culturama é uma página que divulga eventos fictícios sobre cultura, entrete
 <br><br>
 *Desenvolvida como resultado de um curso na Alura.*
 
-|:placard: Vitrine.Dev |                                                                   | 
-| -------------------- | ------------------------------------------------------------------|
-| :sparkles: Nome      | **Culturama**                                                     |
-| :label: Tecnologias  | HTML, CSS                                                         |
-| :rocket: URL         | [culturama-lovat.vercel.app/](https://culturama-lovat.vercel.app/)|
-| 🧰 Propriedades      | Flex-box, Grid                                                    |
-| 💻 Responsividade    | Celular, Tablet e Desktop                                         |
+|:placard: Vitrine.Dev |                                       | 
+| -------------------- | --------------------------------------|
+| :sparkles: Nome      | **Culturama**                         |
+| :label: Tecnologias  | HTML, CSS                             |
+| :rocket: URL         | https://culturama-nayrabra.vercel.app/|
+| 🧰 Propriedades      | Flex-box, Grid                        |
+| 💻 Responsividade    | Celular, Tablet e Desktop             |
 
 ## Versões do projeto:
 
